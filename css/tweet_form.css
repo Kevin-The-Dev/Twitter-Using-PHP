@@ -1,0 +1,33 @@
+.tweet-form-container {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.tweet-form-container textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+}
+
+.tweet-form-container button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tweet-form-container button:hover {
+    background-color: #1991da;
+}
