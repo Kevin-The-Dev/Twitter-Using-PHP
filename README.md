@@ -1,139 +1,56 @@
-# Twitter-Using-PHP 🐦
+# 🐦 Twitter-Using-PHP (X Clone)
 
-A simple **Twitter-like social media web application** built using **Core PHP and MySQL**.  
-This project demonstrates how popular social media features work behind the scenes without using any PHP framework.
+A simple, complete **Twitter (X)-like social media web application** built entirely from scratch using **Core PHP** and **MySQL**.
 
----
+This project serves as an educational resource and starter template, demonstrating how fundamental social media features like posting, following, and liking work behind the scenes without relying on complex PHP frameworks.
 
-## 🚀 Features
+## ✨ Features
 
-- User Registration & Login
-- Post Tweets
-- Like & Unlike Tweets
-- Comment on Tweets
-- Follow / Unfollow Users
-- View Own Profile & Other Users’ Profiles
-- Dynamic Home Feed
-- Secure Session Handling
-- SQL file included for easy database setup
+The application provides a fully functional microblogging experience with the following core features:
 
----
+* **User Authentication:** Secure **Registration** and **Login** system.
+* **Post Tweets (X's):** Create and view user-generated posts.
+* **Engagement:** Functionality to **Like/Unlike** posts and **Comment** on them.
+* **Social Graph:** Ability to **Follow/Unfollow** other users.
+* **Dynamic Feeds:** A **Home Feed** that aggregates tweets from followed users.
+* **Profiles:** Dedicated pages to view your own profile and other users' profiles.
+* **Database Management:** Includes `sql.txt` for easy, rapid database setup.
 
 ## 🧱 Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP (Core PHP)  
-- **Database:** MySQL  
-- **Server:** Apache (XAMPP / WAMP / LAMP)
+This project is built using the classic LAMP/XAMPP stack:
 
----
-
-## 📂 Project Structure
-
-Twitter-Using-PHP/
-│
-├── css/
-├── uploads/
-│
-├── comment_tweet.php
-├── config.php
-├── follow_toggle.php
-├── home.php
-├── index.php
-├── like_tweet.php
-├── login.php
-├── logout.php
-├── post_tweet.php
-├── profile.php
-├── register.php
-├── view_profile.php
-├── temp.php
-├── sql.txt
-│
-└── README.md
-
-yaml
-Copy code
-
----
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Backend** | PHP (Core) | Server-side logic, routing, and database interaction. |
+| **Database** | MySQL / MariaDB | Relational database for storing user, tweet, and relationship data. |
+| **Frontend** | HTML, CSS, JavaScript | Structure, styling, and basic client-side interactivity. |
+| **Server** | Apache (via XAMPP/WAMP/LAMP) | Local development environment. |
 
 ## ⚙️ Requirements
 
-Make sure you have the following installed:
+To run this project locally, you need a web server environment with:
 
-- PHP 7.4 or higher
-- MySQL / MariaDB
-- Apache Server
-- XAMPP / WAMP / LAMP (recommended)
+* **PHP** (Version 7.4 or higher recommended)
+* **MySQL** / **MariaDB**
+* **Apache Server** (XAMPP, WAMP, or LAMP are highly recommended)
 
----
+## 🚀 Installation & Setup
 
-## 🛠️ Installation Steps
+Follow these simple steps to get the application running on your local machine.
 
-### 1️⃣ Clone the Repository
+ 1. Clone the Repository
+
+Open your terminal or command prompt and clone the project:
+
 ```bash
 git clone https://github.com/Kevin-The-Dev/Twitter-Using-PHP.git
-2️⃣ Move Project to Server Directory
-XAMPP → htdocs
+cd Twitter-Using-PHP
+The last three backticks **close the code block** ✅
 
-WAMP → www
 
-3️⃣ Create Database
-Open phpMyAdmin
 
-Create a database (example: twitter_clone)
 
-Import the sql.txt file
 
-4️⃣ Configure Database
-Edit config.php:
 
-php
-Copy code
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'twitter_clone');
-5️⃣ Run the Project
-Open your browser and visit:
 
-arduino
-Copy code
-http://localhost/Twitter-Using-PHP/
-📄 Pages Overview
-File Name	Description
-index.php	Login page
-register.php	User registration
-home.php	Twitter feed
-post_tweet.php	Post new tweet
-profile.php	User profile
-view_profile.php	View other users
-like_tweet.php	Like/unlike tweet
-comment_tweet.php	Comment on tweet
-follow_toggle.php	Follow/unfollow
-
-🧠 Learning Purpose
-This project is ideal for:
-
-PHP beginners
-
-College mini / major projects
-
-Understanding social media backend logic
-
-Learning MySQL relationships (users, tweets, followers)
-
-🔮 Future Improvements
-AJAX for realtime likes & comments
-
-Search & hashtags
-
-Direct messaging
-
-Password hashing improvement
-
-MVC architecture
-
-🤝 Contribution
-Contributions are welcome!
-Feel free to fork the repo and submit a pull request.
