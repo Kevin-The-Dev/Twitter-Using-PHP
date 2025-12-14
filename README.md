@@ -64,8 +64,15 @@ Import the sql.txt file
 4. Configure Database
 
 Edit config.php:
+```sh
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'twitter_clone');
 
+http://localhost/Twitter-Using-PHP/
 
+```
 
 
 
