@@ -74,6 +74,44 @@ http://localhost/Twitter-Using-PHP/
 
 ```
 
+📄 Pages Overview
+File Name	Description
+index.php	Login page
+register.php	User registration
+home.php	Twitter feed
+post_tweet.php	Post new tweet
+profile.php	User profile
+view_profile.php	View other users
+like_tweet.php	Like/unlike tweet
+comment_tweet.php	Comment on tweet
+follow_toggle.php	Follow/unfollow
+🧠 Learning Purpose
 
+This project is ideal for:
+
+PHP beginners
+
+College mini / major projects
+
+Understanding social media backend logic
+
+Learning MySQL relationships (users, tweets, followers)
+
+🔮 Future Improvements
+
+AJAX for realtime likes & comments
+
+Search & hashtags
+
+Direct messaging
+
+Password hashing improvement
+
+MVC architecture
+
+🤝 Contribution
+
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
 
 
