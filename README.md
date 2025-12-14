@@ -43,11 +43,27 @@ Follow these simple steps to get the application running on your local machine.
 
 Open your terminal or command prompt and clone the project:
 
-```bash
+```sh
 git clone https://github.com/Kevin-The-Dev/Twitter-Using-PHP.git
 cd Twitter-Using-PHP
+```
+2 Move Project to Server Directory
 
-##
+XAMPP → htdocs
+
+WAMP → www
+
+3 Create Database
+
+Open phpMyAdmin
+
+Create a database (example: twitter_clone)
+
+Import the sql.txt file
+
+4 Configure Database
+
+Edit config.php:
 
 
 
