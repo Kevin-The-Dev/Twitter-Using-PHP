@@ -46,8 +46,10 @@ Open your terminal or command prompt and clone the project:
 ```bash
 git clone https://github.com/Kevin-The-Dev/Twitter-Using-PHP.git
 cd Twitter-Using-PHP
-The last three backticks **close the code block** ✅
-
+✅ This is the correct closing.  
+If it still doesn’t close, ensure:
+- The closing ``` is on a **new line**
+- No extra spaces before the backticks
 
 
 
