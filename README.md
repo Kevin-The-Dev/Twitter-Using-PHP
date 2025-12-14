@@ -74,44 +74,26 @@ http://localhost/Twitter-Using-PHP/
 
 ```
 
-📄 Pages Overview
-File Name	Description
-index.php	Login page
-register.php	User registration
-home.php	Twitter feed
-post_tweet.php	Post new tweet
-profile.php	User profile
-view_profile.php	View other users
-like_tweet.php	Like/unlike tweet
-comment_tweet.php	Comment on tweet
-follow_toggle.php	Follow/unfollow
-🧠 Learning Purpose
+💡 Learning & Usage
+This project is an excellent resource for:
 
-This project is ideal for:
+PHP Beginners: Practical experience in building a full-stack application with core PHP.
 
-PHP beginners
+Educational Projects: Ideal as a college mini or major project.
 
-College mini / major projects
-
-Understanding social media backend logic
-
-Learning MySQL relationships (users, tweets, followers)
-
-🔮 Future Improvements
-
-AJAX for realtime likes & comments
-
-Search & hashtags
-
-Direct messaging
-
-Password hashing improvement
-
-MVC architecture
+Understanding Backend Logic: Learning how user sessions, database relationships (e.g., followers, likes), and real-time feeds are structured in a social media app.
 
 🤝 Contribution
+Contributions are welcome! If you have suggestions for features, improvements, or bug fixes, please follow these steps:
 
-Contributions are welcome!
-Feel free to fork the repo and submit a pull request.
+Fork the repository.
+
+Create your feature branch (git checkout -b feature/AmazingFeature).
+
+Commit your changes (git commit -m 'Add some AmazingFeature').
+
+Push to the branch (git push origin feature/AmazingFeature).
+
+Open a Pull Request.
 
 
