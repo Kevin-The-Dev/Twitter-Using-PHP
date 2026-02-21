@@ -88,7 +88,7 @@ This project is a **complete social media platform** that replicates the core fu
 | Layer | Technology | Purpose |
 |-------|------------|---------|
 | **Backend** | PHP 7.4+ | Server-side logic, routing, database interaction |
-| **Database** | MySQL/MariaDB | Relational data storage |
+| **Database** | MySQL | Relational data storage |
 | **Frontend** | HTML5, CSS3, JavaScript | UI structure, styling, client-side interactivity |
 | **Icons** | Font Awesome 6 | Professional iconography |
 | **Server** | Apache/Nginx | Web server (via XAMPP/WAMP/LAMP) |
@@ -97,7 +97,7 @@ This project is a **complete social media platform** that replicates the core fu
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        Client Layer                          │
+│                        Client Layer                         │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────┐  │
 │  │   Browser   │  │  JavaScript │  │  CSS Stylesheets    │  │
 │  │   (HTML)    │  │   (AJAX)    │  │   (Responsive)      │  │
@@ -107,13 +107,13 @@ This project is a **complete social media platform** that replicates the core fu
           └────────────────┴────────────────────┘
                            │
 ┌──────────────────────────▼──────────────────────────────────┐
-│                      Server Layer                            │
+│                      Server Layer                           │
 │  ┌─────────────────────────────────────────────────────┐    │
-│  │              Apache/Nginx Web Server                 │    │
+│  │              Apache/Nginx Web Server                 │   │
 │  └────────────────────────┬────────────────────────────┘    │
-│                           │                                  │
+│                           │                                 │
 │  ┌────────────────────────▼────────────────────────────┐    │
-│  │                   PHP Engine                         │    │
+│  │                   PHP Engine                         │   │
 │  │  ┌──────────┐  ┌──────────┐  ┌──────────────────┐   │    │
 │  │  │  index   │  │  login   │  │  post_tweet      │   │    │
 │  │  │  home    │  │ register │  │  like_tweet      │   │    │
@@ -123,9 +123,9 @@ This project is a **complete social media platform** that replicates the core fu
 └───────────────────────────┼─────────────────────────────────┘
                             │
 ┌───────────────────────────▼─────────────────────────────────┐
-│                    Database Layer                            │
+│                    Database Layer                           │
 │  ┌─────────────────────────────────────────────────────┐    │
-│  │              MySQL Server                    │    │
+│  │              MySQL Server                           │    │
 │  │  ┌─────────┐ ┌─────────┐ ┌──────────┐ ┌──────────┐  │    │
 │  │  │  users  │ │ tweets  │ │  likes   │ │ comments │  │    │
 │  │  │followers│ │         │ │          │ │          │  │    │
