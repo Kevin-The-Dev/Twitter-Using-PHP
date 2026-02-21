@@ -109,11 +109,11 @@ This project is a **complete social media platform** that replicates the core fu
 ┌──────────────────────────▼──────────────────────────────────┐
 │                      Server Layer                           │
 │  ┌─────────────────────────────────────────────────────┐    │
-│  │              Apache/Nginx Web Server                 │   │
+│  │              Apache/Nginx Web Server                │    │
 │  └────────────────────────┬────────────────────────────┘    │
 │                           │                                 │
 │  ┌────────────────────────▼────────────────────────────┐    │
-│  │                   PHP Engine                         │   │
+│  │                   PHP Engine                        │    │
 │  │  ┌──────────┐  ┌──────────┐  ┌──────────────────┐   │    │
 │  │  │  index   │  │  login   │  │  post_tweet      │   │    │
 │  │  │  home    │  │ register │  │  like_tweet      │   │    │
